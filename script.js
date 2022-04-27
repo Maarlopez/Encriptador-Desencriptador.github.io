@@ -1,11 +1,13 @@
 window.addEventListener("load", function () {
 
+
+
     let textoEntrada = document.querySelector(".textoEntrada");
     let textoSalida = document.querySelector(".textoSalida");
 
 
-    let btnEncriptar = document.querySelector("#encrypt");
-    let btnDesencriptar = document.querySelector("#desencrypt");
+    let btnEncriptar = document.querySelector("#encriptar");
+    let btnDesencriptar = document.querySelector("#desencriptar");
     let btnCopiar = document.querySelector("#copiar");
 
     let desactivar = document.querySelector(".sinTexto");
@@ -31,7 +33,7 @@ window.addEventListener("load", function () {
 
     btnCopiar.addEventListener("click", copiarClipBoard);
 
-    // funcion para encriptar texto
+    // funcion para encrptar texto
     function encriptarTexto() {
 
         let textoEncriptar = limpiarTexto(textoEntrada.value);
@@ -56,10 +58,14 @@ window.addEventListener("load", function () {
             .replaceAll("ufat","u")
         ;
         return textoDesencriptado;
+
+
     }
 
     // funcion para copiar en el clipBoard
     function copiarClipBoard(){
+
+
 
         textoSalida.select();
         document.execCommand("copy");
