@@ -1,0 +1,13 @@
+Cómo ajustar la altura del elemento, a través de la propiedad height.
+Cómo ajustar la anchura del elemento, a través de la propiedad width.
+Cómo ajustar la altura del elemento, a través de la propiedad padding.
+Cómo ajustar la altura del elemento, a través de la propiedad margin
+
+Tenemos esta propiedad inline-block. ¿Qué es lo que estamos diciéndole?
+
+Que ocupe solo el espacio de su contenido y que los espaciamientos, tanto de la parte de arriba, inferiores, superiores, inferiores, 
+derechos, izquierdos, se puedan ajustar, puedan ser ajustables.
+
+Entonces, tenemos el inline propiamente dicho, que sería en este caso la imagen, la imagen se acomoda al texto 
+y usa solo su contenido de block, que vendría a ser el valor de la propiedad display por defecto de las listas. 
+Entonces, que en cada nueva línea hay un salto de línea, y en este caso estamos configurando nuestra lista para que sea inline-block.
