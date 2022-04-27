@@ -6,8 +6,8 @@ window.addEventListener("load", function () {
     let textoSalida = document.querySelector(".textoSalida");
 
 
-    let btnEncriptar = document.querySelector("#encriptar");
-    let btnDesencriptar = document.querySelector("#desencriptar");
+    let btnEncriptar = document.querySelector("#encrypt");
+    let btnDesencriptar = document.querySelector("#desencrypt");
     let btnCopiar = document.querySelector("#copiar");
 
     let desactivar = document.querySelector(".sinTexto");
@@ -64,8 +64,6 @@ window.addEventListener("load", function () {
 
     // funcion para copiar en el clipBoard
     function copiarClipBoard(){
-
-
 
         textoSalida.select();
         document.execCommand("copy");
